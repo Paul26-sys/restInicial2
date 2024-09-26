@@ -1,0 +1,22 @@
+INSERT INTO fabricante(id, nombre) VALUES (1, 'Asus');
+INSERT INTO fabricante(id, nombre) VALUES (2, 'Lenovo');
+INSERT INTO fabricante(id, nombre) VALUES (3, 'Samsung');
+INSERT INTO fabricante(id, nombre) VALUES (4, 'Crucial');
+INSERT INTO fabricante(id, nombre) VALUES (5, 'Xiamomi');
+INSERT INTO fabricante(id, nombre) VALUES (6, 'Hp');
+INSERT INTO fabricante(id, nombre) VALUES (7, 'DELL');
+INSERT INTO fabricante(id, nombre) VALUES (8, 'motorola');
+INSERT INTO fabricante(id, nombre) VALUES (9, 'jul');
+
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (1, 'Disco duro SATA 3TB',80,7);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (2, 'Memoria RAM DDR4 16GB',78,1);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (3, 'Disipador',69,3);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (4, 'placa de video 3070',45,5);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (5, 'Procesador i3',350,8);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (6, 'Disco duro Kingston 1TB',56,7);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (7, 'Memoria RAM DDR3 4GB',100,1);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (8, 'Procesador amd',48,7);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (9, 'Procesador i9 11gen',200,9);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (10, 'Placa madre', 60,6);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (11, 'Memoria RAM DDR4 8GB', 50, 4);
+INSERT INTO producto(id, nombre, precio, id_fabricante) VALUES (12, 'Disco duro Kingston 2TB',80, 2);
